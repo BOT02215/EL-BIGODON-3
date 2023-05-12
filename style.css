@@ -1,0 +1,44 @@
+h3 {
+    font-size: 25px !important;
+  }
+  
+  canvas {
+    border: 2px dashed black;
+    animation-name: bigodoni;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes bigodoni{
+    0%{box-shadow: 2px 2px 20px black;}
+  
+    12.5%{box-shadow: 2px 2px 20px darkgreen;}
+  
+    25%{box-shadow: 2px 2px 20px green;}
+  
+    37.5%{box-shadow: 2px 2px 20px greenyellow;}
+  
+    50%{box-shadow: 2px 2px 20px lightgreen;}
+  
+    62.5%{box-shadow: 2px 2px 20px greenyellow;}
+  
+    75%{box-shadow: 2px 2px 20px green;}
+  
+    87.5%{box-shadow: 2px 2px 20px darkgreen;}
+  
+    100%{box-shadow: 2px 2px 20px black;}
+  }
+  
+  h3:hover {
+    background-color: darkgoldenrod !important;
+    width: 450;
+    height: 50;
+    box-shadow: 2px 2px 5px black;
+  }
+  
+  button:hover {
+    background-color: darkgoldenrod !important;
+    width: 90;
+    height: 35;
+    box-shadow: 2px 2px 5px black;
+  }
